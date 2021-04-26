@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人注册</title>
+    <meta name="keywords" content="亲子餐厅,适合宝宝的食物,吸引宝宝的游乐设施,妈妈们的休闲胜地," />
+    <meta name="description" content="The child-宝宝的游乐场，妈妈的休闲地" />
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/comment.css">
+    <link rel="stylesheet" href="css/registr.css">
+</head>
+
+<body>
+    <!--快捷导航-->
+    <div class="shortcut">
+        <div class="w">
+            <div class="fl">陪伴，是给孩子最好的礼物</div>
+            <div class="fr">
+                <ul>
+                    <li>
+                        <a href="land.html">请登录</a>
+                        <a href="register.html" class="style_red">免费注册</a>
+                    </li>
+                    <li>联系我们：0000-666666</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <!--快捷导航end-->
+    <!--header-->
+    <div class="header w">
+        <div class="logo">
+            <h1>
+                <a href="index.html" title="The child亲子餐厅">亲子餐厅</a>
+            </h1>
+        </div>
+        <div class="search">
+            <input type="search" name="" id="" placeholder="语言开发">
+            <script>
+                var search = document.querySelector('input');
+                search.onfocus = function () {
+                    this.placeholder = '';
+                }
+            </script>
+            <button>搜索</button>
+        </div>
+        <div class="hotwords">
+            <a href="listcanyin.html">特色菜品</a>
+            <a href="listcanyin.html">热款饮品</a>
+            <a href="listzhanshi.html">游乐设施</a>
+            <a href="listhuodong.html">优惠套餐</a>
+            <a href="listhuodong.html">折扣</a>
+        </div>
+        <div class="appoint">预约
+            <i class="count">&nbsp;8&nbsp;</i>
+        </div>
+    </div>
+    <!--headerdend-->
+    <div class="division"></div>
+    <!--navstart-->
+    <div class="nav">
+        <a href="index.html">首页
+            <div class="sanjiao"></div>
+        </a>
+        <a href="listzhanshi.html">店铺展示
+            <div class="sanjiao"></div>
+        </a>
+        <a href="listcanyin.html">餐厅饮食
+            <div class="sanjiao"></div>
+        </a>
+        <a href="listhuodong.html">餐厅活动
+            <div class="sanjiao"></div>
+        </a>
+        <a href="listhuiyuan.html">会员中心
+            <div class="sanjiao"></div>
+        </a>
+        <a href="listcontact.html">联系我们
+            <div class="sanjiao"></div>
+        </a>
+
+    </div>
+    <!--navend-->
+    <!--注册start-->
+    <div class="content w">
+        <h3>
+            &nbsp;&nbsp; &nbsp; &nbsp; 注册新用户
+            <div class="h_right">
+                <a href="land.html">如有账号，<span class="error">请登录</span></a>
+            </div>
+        </h3>
+        <div class="reg_form">
+            <form action="">
+                <ul>
+                    <li>
+                        <label for="" style="font-size: 16px; vertical-align: top;">手机号码</label>
+                        <div class="rf_bd">
+
+                            <select>
+                                <option selected="selected">中国大陆&nbsp;&nbsp;+86
+                                </option>
+                                <option>中国香港&nbsp;&nbsp;+852</option>
+                                <option>中国台湾&nbsp;&nbsp;+886</option>
+                            </select>
+                            <input type="password" class="ipt1" style="display: block;">
+
+                        </div>
+                        <p class="message1"> 请输入11位手机号</p>
+                        <script>
+                            var ipt1 = document.querySelector('.ipt1')
+                            var message1 = document.querySelector('.message1')
+                            ipt1.onblur = function () {
+                                if (this.value.length !== 11) {
+                                    message1.className = 'message1 wrong';
+                                    message1.innerHTML = '您输入的位数不对'
+                                } else {
+                                    message1.className = 'message1 right';
+                                    message1.innerHTML = '输入正确'
+                                }
+                            }
+                        </script>
+                    </li>
+                    <li>
+                        <label for="" style="font-size: 16px; vertical-align: top;">验证码</label>
+                        <div class="rf2_bd rf_bd">
+                            <input type="text" class="ipt2" style="display: block;">
+                            <div class="get">
+                                <a href="#">获取验证码</a>
+                            </div>
+                        </div>
+                        <p class="message2"> 请输入4位验证码</p>
+                        <script>
+                            var ipt2 = document.querySelector('.ipt2')
+                            var message2 = document.querySelector('.message2')
+                            ipt2.onblur = function () {
+                                if (this.value.length !== 4) {
+                                    message2.className = 'message2 wrong';
+                                    message2.innerHTML = '您输入错误'
+                                } else {
+                                    message2.className = 'message2 right';
+                                    message2.innerHTML = '输入正确'
+                                }
+                            }
+                        </script>
+                    </li>
+                    <li>
+                        <label for="" style="font-size: 16px; vertical-align: top;">登陆密码</label>
+                        <div class="rf3_bd rf_bd rf2_bd">
+                            <input type="password" class="ipt3" style="display: block;">
+                        </div>
+                        <p class="message3"> 请输入6-12位数字，字母</p>
+                        <script>
+                            var ipt3 = document.querySelector('.ipt3')
+                            var message3 = document.querySelector('.message3')
+                            ipt3.onblur = function () {
+                                if (this.value.length < 6 || this.value.length > 12) {
+                                    message3.className = 'message3 wrong';
+                                    message3.innerHTML = '您输入的位数不对要6-12位'
+                                } else {
+                                    message3.className = 'message3 right';
+                                    message3.innerHTML = '输入正确'
+                                }
+                            }
+                        </script>
+                    </li>
+                    <li class="safe">
+                        安全程度
+                        <em class="ruo">弱</em>
+                        <em class="zhong">中</em>
+                        <em class="qiang">强</em>
+                    </li>
+                    <li>
+                        <label for="" style="font-size: 16px; vertical-align: top;">确认密码</label>
+                        <div class="rf4_bd rf_bd rf2_bd">
+                            <input type="password" class="ipt4" style="display: block;">
+                        </div>
+                        <p class="message4"> 请重新输入密码</p>
+                        <script>
+                            var ipt4 = document.querySelector('.ipt4')
+                            var message4 = document.querySelector('.message4')
+                            ipt4.onblur = function () {
+                                if (ipt4.value !== ipt3.value) {
+                                    message4.className = 'message4 wrong';
+                                    message4.innerHTML = '您输入的密码不一致'
+                                } else {
+                                    message4.className = 'message4 right';
+                                    message4.innerHTML = '输入正确'
+                                }
+                            }
+                        </script>
+                    </li>
+                    <li class="agree">
+                        <input type="checkbox" name="" id="">
+                        &nbsp;&nbsp;同意协议并注册
+                        <a href="#">《用户协议详情》</a>
+                    </li>
+                    <li>
+                        <input type="submit" value="提交注册" class="btn">
+
+                    </li>
+                </ul>
+            </form>
+
+        </div>
+    </div>
+    <!--注册end-->
+    <!--footerstart-->
+    <div class="footer">
+        <div class="mod_help w">
+            <ul>
+                <li>
+                    <dl>
+                        <dt>店铺展示</dt>
+                        <dd><a href="listzhanshi.html">餐厅环境</a></dd>
+                        <dd><a href="listzhanshi.html">餐厅设施</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>餐厅饮食</dt>
+                        <dd><a href="listcanyin.html">招牌美食</a></dd>
+                        <dd><a href="listcanyin.html">经典菜系</a></dd>
+                        <dd><a href="listcanyin.html">健康饮品</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>餐厅活动</dt>
+                        <dd><a href="listhuodong.html">节日假日</a></dd>
+                        <dd><a href="listhuodong.html">儿童套餐</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>会员中心</dt>
+                        <dd><a href="listhuiyuan.html">会员权益</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>联系我们</dt>
+                        <dd><a href="listcontact.html">店铺信息</a></dd>
+
+                    </dl>
+                </li>
+                <li>
+                    <dl>
+                        <dt>帮助中心</dt>
+                        <dd><img src="../restaurant/images/erweima.png"></dd>
+                    </dl>
+                </li>
+            </ul>
+        </div>
+        <div class="mod_copyright">
+            <div class="w">
+                <div class="copyright_top">
+                    <ul>
+                        <li><a href="">首页</a></li>
+                        <li><a href="">店铺展示</a></li>
+                        <li><a href="">餐厅饮食</a></li>
+                        <li><a href="">餐厅活动</a></li>
+                        <li><a href="">会员中心</a></li>
+                        <li><a href="">联系我们</a></li>
+                    </ul>
+                </div>
+                <div class="copyright_buttom">Copyright @The child亲子餐厅（中国） 版权所有</div>
+            </div>
+        </div>
+    </div>
+    <!--footerend-->
+</body>
+
+</html>

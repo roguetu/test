@@ -1,0 +1,81 @@
+.content{
+    height: 520px;
+    margin-top: 30px;
+    border: 1px solid rgb(0, 0, 0,.3);
+    border-radius: 30px;
+}
+.content h3{
+    height: 42px;
+    font-size: 18px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    border-color: #b8b5b5;
+}
+.content h3 .h_right{
+    display: block;
+    float: right;
+    font-size: 14px;
+    margin-right: 25px;
+}
+.content .reg_form{
+    width: 600px; 
+    margin: 50px auto 0;   
+}
+.content .reg_form .rf_bd{
+    width: 300px;
+    height: 43px;
+    margin-left: 150px;
+    border: 1px solid rgb(0, 0, 0,.3);
+ }
+.content .reg_form ul li{
+    height: 44px;
+    margin-bottom: 20px;
+    line-height: 42px;
+     
+}
+.btn{
+    width: 200px;
+    height: 34px;
+    margin-left: 200px;
+    background-color: #c81623;
+}
+.bd_lf{
+    float: left;
+    width: 41px;
+    height: 41px;
+    background: url(../images/user.JPG);
+}
+.bd2_lf{
+    width: 41px;
+    height: 41px;
+    background: url(../images/mima.JPG)
+}
+.content .reg_form .rf_bd input{
+    display:block;
+    float: right;
+    width: 256px;
+    height: 40px;
+    color: rgba(182, 179, 179, 0.3);
+}
+.tongyi{
+    width: 300px;
+   
+    margin-left: 150px;
+    border: 1px solid  transparent;
+    line-height: 44px;
+    color: rgba(182, 179, 179, 0.3);
+}
+.tongyi .left{
+    float: left;
+     
+}
+.tongyi .left input{
+    vertical-align: middle;
+}
+.tongyi a {
+    display: block;
+    float: right;
+}
+.content .reg_form ul li:nth-child(3){
+     height: 20px;
+}

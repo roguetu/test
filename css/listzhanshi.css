@@ -1,0 +1,56 @@
+.sk_container .sk_hd{
+    height: 40px;
+    margin-top: 20px;
+    box-shadow: 0px 6px 5px rgb(0, 0, 0,.3);
+}
+.sk_container .sk_hd a{
+    display: block;
+    float: left;
+    margin-left: 30px;
+    height: 40px;
+    width: 100px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+}
+.sk_container .sk_hd a:nth-child(-n+1){
+    color: red;
+}
+.sk_container .sk_bd{
+    height: 1650px;
+    margin-top: 30px;
+}
+.sk_container .sk_bd .first h2{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0,.3);
+    border-radius: 10px;
+}
+.sk_container .sk_bd .up ul li{
+    display: inline-block;
+    float: left;
+    margin: 20px 100px;
+    width: 400px;
+    height: 266px;
+    background-color: pink;
+}
+.sk_container .sk_bd .end h2{
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0,.3);
+    border-radius: 10px;
+}
+.sk_container .sk_bd .down{
+    float: left;
+}
+.sk_container .sk_bd .down ul li{
+    display: inline-block;
+    float: left;
+    margin: 20px 100px;
+    width: 400px;
+    height: 266px;
+    background-color: pink;
+}

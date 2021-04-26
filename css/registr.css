@@ -1,0 +1,167 @@
+
+ 
+.message1{
+    margin-right:50px;
+    display: inline-block;
+    padding-left: 22px;
+    float: right;
+    margin-top: -2px;
+    color: rgb(29, 144, 238);
+    font-size: 12px;
+    background: url(../images/图标02.jpg) no-repeat left center;
+}
+.message2{
+    margin-right:58px;
+    display: inline-block;
+    padding-left: 22px;
+    float: right;
+    margin-top: -2px;
+    color: rgb(29, 144, 238);
+    font-size: 12px;
+    background: url(../images/图标02.jpg) no-repeat left center;
+}
+.message3{
+    margin-right:14px;
+    display: inline-block;
+    padding-left: 22px;
+    float: right;
+    margin-top: -2px;
+    color: rgb(29, 144, 238);
+    font-size: 12px;
+    background: url(../images/图标02.jpg) no-repeat left center;
+}
+.message4{
+    margin-right: 64px;
+    display: inline-block;
+    padding-left: 22px;
+    float: right;
+    margin-top: -2px;
+    color: rgb(29, 144, 238);
+    font-size: 12px;
+    background: url(../images/图标02.jpg) no-repeat left center;
+}
+
+.wrong {
+    color: red;
+    background: url(../images/图标.JPG) no-repeat left center;
+}
+
+.right {
+    color: green;
+    background: url(../images/图标1.JPG) no-repeat left center;
+}
+select{
+    outline: none;
+}
+.content{
+    height: 520px;
+    margin-top: 30px;
+    border: 1px solid rgb(0, 0, 0,.3);
+    border-radius: 30px;
+}
+.content h3{
+    height: 42px;
+    font-size: 18px;
+    line-height: 42px;
+    border-bottom: 1px solid #ccc;
+    border-color: #b8b5b5;
+}
+.content h3 .h_right{
+    display: block;
+    float: right;
+    font-size: 14px;
+    margin-right: 25px;
+}
+.content .reg_form{
+    width: 600px;
+     
+    margin: 50px auto 0;
+    
+}
+.content .reg_form ul li{
+    height: 42px;
+    margin-bottom: 20px;
+    line-height: 42px;
+}
+.content .reg_form table{
+    display: block;
+     
+    font-size: 16px;
+    margin-top: 20px;
+}
+.content .reg_form .rf_bd{
+   display: inline-block;
+   width: 300px;
+   height: 41px;
+   margin-left: 10px;
+   border: 1px solid rgb(0, 0, 0,.3);
+}
+.content .reg_form .rf_bd select{
+    float: left;
+    display: block;
+    height: 41px;
+    width: 115px;
+    margin-left: -1px;
+     margin-top: -1px;
+    border: 0 1px;
+    border: 1px solid rgb(0, 0, 0,.3);
+
+}
+.content .reg_form .rf_bd input{
+    float: right;
+    height: 39px;
+    width: 182px;
+}
+.content .reg_form ul li:nth-child(2){
+    margin-left: 16px;
+}
+.content .reg_form .rf2_bd input{
+    float: left;
+    margin-left: 3px;
+}
+.content .reg_form .rf2_bd .get a{
+    display: block;
+    float: right;
+    margin-right: 3px;
+    height: 42px;
+    line-height: 42px;
+    font-size: 16px;
+    color: red;
+}
+.content .reg_form ul li:nth-child(3){
+    margin-bottom: 5px;
+}
+.content .reg_form ul li:nth-child(4){
+    height: 20px;
+}
+
+.safe{
+    padding-left: 200px;
+}
+.safe em{
+    padding: 0 12px;
+}
+.ruo{
+    background-color: #de1111;
+}
+.zhong{
+    background-color: #40b83f;
+}
+.qiang{
+    background-color: #f79100;
+}
+.agree{
+    padding-left: 120px;
+}
+.agree input{
+     vertical-align: middle;
+}
+.agree a{
+    color: #1ba1e6;
+}
+.btn{
+    width: 200px;
+    height: 34px;
+    margin-left: 120px;
+    background-color: #c81623;
+}
